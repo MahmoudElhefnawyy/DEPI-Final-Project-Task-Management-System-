@@ -31,6 +31,30 @@ The Task Management System is a comprehensive tool for managing tasks, projects,
 ---
 
 ## **Project Planning and Management**
+ 1. Project Proposal  
+**Objective**: Build a Task Management System for task tracking and team collaboration.  
+**Scope**: Task creation, assignment, progress tracking, and reporting.
+
+---
+
+ 2. Project Plan  
+**Timeline**:  
+| Phase           | Start Date | End Date   |  
+|-----------------|------------|------------|  
+| Proposal        | 3/1/2025   | 3/7/2025   |  
+| Requirements    | 3/8/2025   | 3/14/2025  |  
+| Design          | 3/15/2025  | 3/28/2025  |  
+| Implementation  | 3/29/2025  | 4/25/2025  |  
+| Testing         | 4/26/2025  | 5/2/2025   |  
+| Presentation    | 5/3/2025   | 5/9/2025   |  
+
+**Milestones**:  
+- Proposal Approval  
+- Requirements Finalized  
+- Design Completed  
+- Implementation Done  
+- Testing & QA Passed  
+- Final Presentation  
 
 ### **Requirements Gathering**
 - Conducted stakeholder interviews to identify key features and user needs.
