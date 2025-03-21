@@ -70,3 +70,62 @@ The Task Management System is a comprehensive tool for managing tasks, projects,
 - Developed the frontend using React and Tailwind CSS.
 - Implemented state management using Zustand for efficient data handling.
 - Integrated API calls (if applicable) for fetching and updating task/project data.
+
+task-management-system/
+├── public/                  # Static assets (images, icons, etc.)
+│   ├── index.html           # Main HTML file
+│   ├── favicon.ico          # Favicon
+│   └── assets/              # Static files (e.g., images, fonts)
+│       ├── images/          # Project images
+│       └── fonts/           # Custom fonts
+│
+├── src/                     # Source code
+│   ├── components/          # Reusable UI components
+│   │   ├── TaskCard/        # Task card component
+│   │   ├── ProjectList/     # Project list component
+│   │   ├── Navbar/          # Navigation bar
+│   │   └── Footer/          # Footer component
+│   │
+│   ├── pages/               # Application pages
+│   │   ├── Dashboard/       # Dashboard page
+│   │   ├── Tasks/           # Tasks page
+│   │   ├── Projects/        # Projects page
+│   │   └── Settings/        # Settings page
+│   │
+│   ├── contexts/            # React Context providers
+│   │   ├── AuthContext.js   # Authentication context
+│   │   └── ThemeContext.js  # Theme (dark/light mode) context
+│   │
+│   ├── hooks/               # Custom React hooks
+│   │   ├── useTasks.js      # Hook for task management
+│   │   ├── useProjects.js   # Hook for project management
+│   │   └── useAuth.js       # Hook for authentication
+│   │
+│   ├── services/            # API and backend services
+│   │   ├── taskService.js   # Task-related API calls
+│   │   ├── projectService.js# Project-related API calls
+│   │   └── authService.js   # Authentication-related API calls
+│   │
+│   ├── store/               # Zustand state management
+│   │   ├── taskStore.js     # State management for tasks
+│   │   ├── projectStore.js  # State management for projects
+│   │   └── authStore.js     # State management for authentication
+│   │
+│   ├── styles/              # Global and component-specific styles
+│   │   ├── global.css       # Global Tailwind CSS styles
+│   │   ├── TaskCard.css     # Styles for TaskCard component
+│   │   └── Navbar.css       # Styles for Navbar component
+│   │
+│   ├── utils/               # Utility functions and helpers
+│   │   ├── helpers.js       # General helper functions
+│   │   └── validators.js    # Validation functions
+│   │
+│   ├── App.jsx              # Main application component
+│   ├── main.jsx             # Entry point for React
+│   └── routes.jsx           # Application routing
+│
+├── .env                     # Environment variables
+├── .gitignore               # Files/folders to ignore in Git
+├── package.json             # Project dependencies and scripts
+├── README.md                # Project documentation
+└── tailwind.config.js       # Tailwind CSS configuration
