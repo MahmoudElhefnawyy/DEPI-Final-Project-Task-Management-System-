@@ -36,7 +36,7 @@ The Task Management System is a comprehensive tool for managing tasks, projects,
 **Scope**: Task creation, assignment, progress tracking, and reporting.
 
 ---
-
+```
  2. Project Plan  
 **Timeline**:  
 | Phase           | Start Date | End Date   |  
@@ -47,7 +47,7 @@ The Task Management System is a comprehensive tool for managing tasks, projects,
 | Implementation  | 3/29/2025  | 4/25/2025  |  
 | Testing         | 4/26/2025  | 5/2/2025   |  
 | Presentation    | 5/3/2025   | 5/9/2025   |  
-
+```
 **Milestones**:  
 - Proposal Approval  
 - Requirements Finalized  
@@ -70,7 +70,7 @@ The Task Management System is a comprehensive tool for managing tasks, projects,
 - Developed the frontend using React and Tailwind CSS.
 - Implemented state management using Zustand for efficient data handling.
 - Integrated API calls (if applicable) for fetching and updating task/project data.
-
+```
 task-management-system/
 ├── public/                  # Static assets (images, icons, etc.)
 │   ├── index.html           # Main HTML file
@@ -129,3 +129,4 @@ task-management-system/
 ├── package.json             # Project dependencies and scripts
 ├── README.md                # Project documentation
 └── tailwind.config.js       # Tailwind CSS configuration
+```
