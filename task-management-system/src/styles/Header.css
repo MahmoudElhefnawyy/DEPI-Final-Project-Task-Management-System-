@@ -1,0 +1,49 @@
+.headline-1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 64px;
+  line-height: 76px;
+  font-weight: 600; 
+  color: var(--black);
+}
+.headline-2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600; 
+  color: var(--black);
+}
+.headline-3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600; 
+  color: var(--black);
+}
+.headline-4 {
+  font-family: 'poppines', sans-serif;
+  font-size: 8px;
+  line-height: 5px;
+  font-weight: 400; 
+  color: var(--black);
+  margin-right:0px  50px 0px 0px ;
+}
+
+.body-1 {
+  font-family: 'poppines', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400; 
+  color: var(--d-grey);
+}
+
+.active-link {
+  color: var(--primary) !important; 
+  font-weight: 600 !important; 
+}
+.btn{
+    margin-left: 50px;
+    font-family: 'poppines', sans-serif;
+    border-radius: 5px!important;
+    padding: 3px 4px !important;
+    background-color: green;
+}

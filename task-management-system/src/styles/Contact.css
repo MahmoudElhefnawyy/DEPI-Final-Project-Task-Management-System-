@@ -1,0 +1,54 @@
+.contact-container {
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    padding: 130px 0px 100px 0px;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .icon {
+    font-size: 28px;
+    color:#28CB8B ; 
+    padding: 6px 10px;
+    border-radius: 50%;
+    background-color:whitesmoke;
+  }
+  
+  h2 {
+    color: #2c3e50; 
+    font-weight: bold;
+  }
+  
+  h5 {
+    color: #34495e; 
+    margin-bottom: 5px;
+  }
+  
+  p {
+    color: #7f8c8d; 
+    margin: 0;
+  }
+  
+  .btn-primary {
+    background-color: #3498db; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }

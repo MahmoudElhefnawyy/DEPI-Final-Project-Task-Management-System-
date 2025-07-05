@@ -1,0 +1,65 @@
+
+
+:root {
+  /* Neutral Colors */
+  --black: #263238;
+  --d-grey: #4D4D4D;
+  --grey: #717171;
+  --l-grey: #89939E;
+  --grey-blue: #ABBED1;
+  --silver: #F5F7FA;
+  --white: #FFFFFF;
+
+  /* Primary Colors */
+  --primary: #28CB8B;
+  --secondary: #263238;
+  --info: #2194f3;
+
+  /* Shade Colors */
+  --shade-1: #43A046;
+  --shade-2: #388E3B;
+  --shade-3: #237D31;
+  --shade-4: #1B5E1F;
+  --shade-5: #103E13;
+
+  --tint-1: #66BB69;
+  --tint-2: #81C784;
+  --tint-3: #A5D6A7;
+  --tint-4: #C8E6C9;
+  --tint-5: #E8F5E9;
+
+  --black: #263238;
+  --d-grey: #4D4D4D;
+  --grey: #717171;
+  --l-grey: #89939E;
+  --grey-blue: #ABBED1;
+  --silver: #F5F7FA;
+  --white: #FFFFFF;
+  --primary: #28CB8B;
+  --bg-color: var(--silver);
+  --text-color: var(--black);
+  --surface-color: var(--white);
+  --border-color: var(--grey-blue);
+}
+
+[data-theme="dark"] {
+  --black: #E0E0E0;
+  --d-grey: #B0B0B0;
+  --grey: #909090;
+  --l-grey: #707070;
+  --grey-blue: #505050;
+  --silver: #121212;
+  --white: #1E1E1E;
+  --primary: #4CDA9D;
+
+  --bg-color: var(--silver);
+  --text-color: var(--black);
+  --surface-color: var(--white);
+  --border-color: var(--grey-blue);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
