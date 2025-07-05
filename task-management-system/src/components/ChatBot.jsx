@@ -4,7 +4,7 @@ import logo from "../assets/images/logo.png";
 import TaskLeed from "../assets/images/TaskLeed.png";
 import Swal from "sweetalert2";
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "";
 
 export default function ChatBot() {
   const [isLoading, setIsLoading] = useState(false);
